@@ -11,6 +11,7 @@
   "author": "Fizal Sarif",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "concurrently": "^3.1.0",
     "css-loader": "^0.26.1",
     "express": "^4.14.0",
@@ -23,6 +24,10 @@
     "react-router": "^2.0.0",
     "redux": "^3.6.0",
     "style-loader": "^0.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trilionit/trilionAdmin.git"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",

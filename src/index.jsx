@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import MainLayout from './components/MainLayout.jsx';
 
+require('./css/style.css');
+import App from './components/App.jsx';
+
+
+	
 ReactDom.render(
-	<MainLayout />, document.getElementById('app')
+	<App />, document.getElementById('app')
 );
